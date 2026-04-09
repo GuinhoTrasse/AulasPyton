@@ -38,4 +38,68 @@
 
 
 # Exercício 4
-def 
+# import math
+
+# def baskara(a, b, c):
+#     # 1. Calculamos o Delta (discriminante) primeiro
+#     delta = (b**2) - (4*a*c)
+    
+#     # 2. Verificamos se é possível calcular as raízes reais
+#     if delta < 0:
+#         print("A equação não possui raízes reais (Delta negativo).")
+#     elif a == 0:
+#         print("O valor de 'a' não pode ser zero em uma equação de segundo grau.")
+#     else:
+#         # 3. Calculamos as duas raízes corretamente
+#         raiz_delta = math.sqrt(delta)
+        
+#         x = (-b + raiz_delta) / (2 * a)
+#         y = (-b - raiz_delta) / (2 * a) # Aqui usamos o sinal de menos
+        
+#         print(f"1 raiz: {x}")
+#         print(f"2 raiz: {y}")
+
+# Entrada de dados
+# a = int(input("Digite o valor de a: "))
+# b = int(input("Digite o valor de b: "))
+# c = int(input("Digite o valor de c: "))
+
+# baskara(a, b, c)
+
+
+
+
+def verificar():
+    numero = float(input("Informe o número"))
+    n = numero
+    soma = 0
+
+    while n > 0:
+        n -= 1
+        if numero%2 == 0:
+            soma += n
+
+    if soma == numero:
+        return 1
+    else:
+        return 0
+
+resultado = verificar()
+
+
+
+
+
+
+# def estatisticas_básicas(valores):
+#     menor = min(valores)
+#     maior = max(valores)
+#     return menor, maior
+
+# minimo, maximo = estatisticas_básicas({4, 1, 7, 20})
+# print(f"O mínimo é {minimo} e o máximo é {maximo}")
+
+
+
+# funções da math + pyton
+# funçoes de string + pyton
