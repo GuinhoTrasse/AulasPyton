@@ -18,21 +18,48 @@
 
 # print(f"A quantidade de alunos na média ou acima da média é {alunos_acima}")
 
-carrinho = []
 
-print("--- Cadastro de Produtos (Digite 'sair' para encerrar) ---")
 
-while True:
-    produto = input("Informe o nome do produto: ")
-    # .lower() passa tudo minusculo
-    if produto.lower() == 'sair':
-        break
-    # append adiciona o item no fim da lista
-    carrinho.append(produto)
 
-print("\n--- Itens no seu Carrinho ---")
-# len retorna o tamanho do objeto
-tamanho_carrinho = len(carrinho)
+# carrinho = []
 
-for i in range(tamanho_carrinho):
-    print(f"Posição [{i}] -> Produto: {carrinho[i]}")
+# print("--- Cadastro de Produtos (Digite 'sair' para encerrar) ---")
+
+# while True:
+#     produto = input("Informe o nome do produto: ")
+#     # .lower() passa tudo minusculo
+#     if produto.lower() == 'sair':
+#         break
+#     # append adiciona o item no fim da lista
+#     carrinho.append(produto)
+
+# print("\n--- Itens no seu Carrinho ---")
+# # len retorna o tamanho do objeto
+# tamanho_carrinho = len(carrinho)
+
+# for i in range(tamanho_carrinho):
+#     print(f"Posição [{i}] -> Produto: {carrinho[i]}")
+
+
+
+
+# bicycles = ['trek', 'cannondale', 'redline', 'sppecialized']
+# print(bicycles[-1]) #indice negativo, le a lista ao contrário
+
+# print(bicycles[0].title()) #imprime com a primeira letra maiuscula
+
+# bicycles.insert(2, 'teste') #coloca o item na posição especificada
+
+# del bicycles[1] #remove 1 item na posição especificada
+
+# bicycles_popped = bicycles.pop() #.pop remove o último
+# print(bicycles_popped)
+
+# bicycles.remove('redline') #remove pelo nome do item e não pela posição
+
+
+
+# numbers = [2, 4, 6]
+# print(max(numbers)) #retorna o maior
+# print(min(numbers)) #retorna o menor
+# print(sum(numbers)) #retorna a soma dos elementos
